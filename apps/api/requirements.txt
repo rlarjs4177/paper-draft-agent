@@ -1,0 +1,27 @@
+# --- API server ---
+fastapi==0.115.0
+uvicorn==0.30.6
+starlette==0.38.6
+pydantic==2.8.2
+python-dotenv==1.0.1
+
+# --- utilities / io ---
+PyYAML==6.0.3
+tqdm==4.67.1
+requests==2.32.5
+httpx==0.28.1
+
+# --- HF / LLM stack ---
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+transformers @ git+https://github.com/huggingface/transformers.git@8d58f6aa9220bdad3151257d916df085911b2a05
+accelerate==1.12.0
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface_hub==1.3.5
+regex==2026.1.15
+
+# --- numeric / optional  ---
+numpy==2.4.1
+pillow==12.0.0
